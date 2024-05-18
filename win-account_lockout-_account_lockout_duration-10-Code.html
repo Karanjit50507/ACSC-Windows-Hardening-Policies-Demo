@@ -1,0 +1,18 @@
+{
+    "@odata.type": "#microsoft.graph.windows10CustomConfiguration",
+    "id": "d7ec8d03-c306-4234-be46-3429cd27f6dd",
+    "lastModifiedDateTime": "2023-11-23T20:55:24.9499856Z",
+    "createdDateTime": "2023-05-22T23:24:26.6628628Z",
+    "description": "Account lockout durationNot applicable to AAD JOINEDThis security setting determines the number of minutes a locked-out account remains locked out before automatically becoming unlocked. The available range is from 0 minutes through 99,999 minutes. If you set the account lockout duration to 0, the account will be locked out until an administrator explicitly unlocks it.If an account lockout threshold is defined, the account lockout duration must be greater than or equal to the reset time.Default: None, because this policy setting only has meaning when an Account lockout threshold is specified.\"",
+    "displayName": "win-account_lockout-_account_lockout_duration-10",
+    "version": 3,
+    "omaSettings": [
+        {
+            "@odata.type": "#microsoft.graph.omaSettingString",
+            "displayName": "Account lockout threshold",
+            "description": null,
+            "omaUri": "./Device/Vendor/MSFT/Policy/Config/DeviceLock/AccountLockoutPolicy",
+            "value": "****"
+        }
+    ]
+}
